@@ -1,0 +1,114 @@
+------------------------------------------------------------------------
+--- OP 1 - WS 0.0 - RPM 0.00 
+------------------------------------------------------------------------
+01 ;    0.244 ;  0.0001 ; ED Platform horizontal sway translation DOF - ED Platform roll tilt rotation DOF - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, -
+02 ;    0.248 ;  0.0003 ; ED Platform surge - ED Platform pitch - ED Platform heave - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 4 amplitude, -
+03 ;    0.479 ;  0.0030 ; ED Drivetrain-rot - ED 1st EDGE coll.
+04 ;    0.481 ;  0.0166 ; ED 1st FLAP sin - ED Platform yaw rotation DOF
+05 ;    0.554 ;  0.0208 ; ED 1st FLAP cos
+06 ;    0.642 ;  0.0311 ; ED 1st FLAP coll.
+07 ;    0.975 ;  0.0299 ; ED 1st EDGE sin
+08 ;    0.988 ;  0.0301 ; ED 1st EDGE cos
+09 ;    1.261 ;  0.0391 ; ED 2nd FLAP sin
+10 ;    1.438 ;  0.0417 ; ED 2nd FLAP cos
+11 ;    1.867 ;  0.0848 ; ED 2nd FLAP coll.
+12 ;    2.307 ;  0.0340 ; NoMax - ED Platform horizontal sway translation DOF - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+13 ;    2.332 ;  0.0286 ; NoMax - ED Platform surge - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 4 amplitude, -
+14 ;    2.557 ;  0.0498 ; NoMax - ED 1st EDGE coll. - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+15 ;    2.638 ;  0.0760 ; NoMax - ED 2nd FLAP sin - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 5 amplitude, - - SD Craig-Bampton mode 2 amplitude, -
+------------------------------------------------------------------------
+--- OP 2 - WS 4.0 - RPM 6.99 
+------------------------------------------------------------------------
+01 ;    0.021 ;  0.1211 ; ED Variable speed generator DOF - ED 1st FLAP sin - ED Platform yaw rotation DOF - ED 2nd FLAP sin - ED Drivetrain-rot
+02 ;    0.252 ;  0.0006 ; ED Platform horizontal sway translation DOF - ED Platform roll tilt rotation DOF - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, -
+03 ;    0.256 ;  0.0666 ; ED Platform surge - ED Platform pitch - ED 1st FLAP cos - ED 1st FLAP coll. - ED Platform heave - ED 1st EDGE coll. - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 4 amplitude, -
+04 ;    0.465 ;  0.6963 ; ED 2nd FLAP cos
+05 ;    0.672 ;  0.6354 ; NoMax - ED 1st FLAP coll. - ED Platform surge - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, -
+06 ;    0.676 ;  0.5459 ; NoMax - ED 1st FLAP cos - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 4 amplitude, -
+07 ;    0.859 ;  0.0435 ; ED 1st EDGE sin - ED 1st EDGE cos
+11 ;    1.827 ;  0.2649 ; ED 2nd FLAP coll.
+12 ;    2.042 ;  0.0684 ; NoMax - ED 1st EDGE coll. - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+14 ;    2.317 ;  0.0169 ; NoMax - ED Platform horizontal sway translation DOF - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+---- Skipped (No ED/BD)
+08 ;    1.105 ;  0.0462 ; NoMax - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 4 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+09 ;    1.165 ;  0.2724 ; NoMax - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 4 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+10 ;    1.441 ;  0.2156 ; NoMax - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 4 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+13 ;    2.315 ;  0.0505 ; NoMax - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 4 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+15 ;    2.600 ;  0.1427 ; NoMax - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 5 amplitude, - - SD Craig-Bampton mode 4 amplitude, -
+------------------------------------------------------------------------
+--- OP 3 - WS 7.0 - RPM 6.99 
+------------------------------------------------------------------------
+01 ;    0.249 ;  0.0012 ; ED Platform horizontal sway translation DOF - ED Platform roll tilt rotation DOF - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, -
+02 ;    0.256 ;  0.0824 ; ED Platform surge - ED Platform pitch - ED 1st FLAP cos - ED 1st FLAP coll. - ED Variable speed generator DOF - ED Platform heave - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 4 amplitude, -
+03 ;    0.486 ;  0.8601 ; ED 1st FLAP sin - ED Platform yaw rotation DOF - ED 2nd FLAP cos
+04 ;    0.670 ;  0.7663 ; NoMax - ED 1st FLAP coll. - ED Platform surge - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, -
+05 ;    0.672 ;  0.7026 ; NoMax - ED 1st FLAP cos - ED 1st FLAP sin - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, -
+06 ;    0.862 ;  0.0411 ; ED 1st EDGE sin - ED 1st EDGE cos
+07 ;    1.116 ;  0.0493 ; NoMax - ED Platform horizontal sway translation DOF - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+08 ;    1.143 ;  0.3013 ; ED 2nd FLAP sin
+10 ;    1.813 ;  0.2884 ; ED 2nd FLAP coll.
+11 ;    2.046 ;  0.0683 ; ED 1st EDGE coll. - ED Drivetrain-rot
+13 ;    2.317 ;  0.0171 ; NoMax - ED Platform horizontal sway translation DOF - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+---- Skipped (No ED/BD)
+09 ;    1.417 ;  0.2405 ; NoMax - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 4 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+12 ;    2.312 ;  0.0530 ; NoMax - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 4 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+14 ;    2.599 ;  0.1527 ; NoMax - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 5 amplitude, - - SD Craig-Bampton mode 4 amplitude, -
+15 ;    3.501 ;  0.1034 ; NoMax - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 4 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+------------------------------------------------------------------------
+--- OP 4 - WS 10.0 - RPM 7.93 
+------------------------------------------------------------------------
+01 ;    0.021 ;  0.2912 ; ED Variable speed generator DOF - ED 1st FLAP sin - ED Platform yaw rotation DOF - ED 1st FLAP cos - ED 2nd FLAP sin - ED Drivetrain-rot
+02 ;    0.252 ;  0.0030 ; ED Platform horizontal sway translation DOF - ED Platform roll tilt rotation DOF - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, -
+03 ;    0.261 ;  0.0885 ; ED Platform surge - ED Platform pitch - ED 1st FLAP coll. - ED Platform heave - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 4 amplitude, -
+04 ;    0.475 ;  0.9314 ; NoMax - ED 1st FLAP sin - ED 1st FLAP cos - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, -
+05 ;    0.674 ;  0.7575 ; NoMax - ED 1st FLAP cos - ED 1st FLAP sin - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, -
+06 ;    0.684 ;  0.8168 ; NoMax - ED 1st FLAP coll. - ED Platform surge - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, -
+07 ;    0.848 ;  0.0468 ; ED 1st EDGE sin - ED 1st EDGE cos
+08 ;    1.150 ;  0.0615 ; NoMax - ED 1st EDGE cos - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+10 ;    1.432 ;  0.2627 ; ED 2nd FLAP cos
+11 ;    1.814 ;  0.3120 ; ED 2nd FLAP coll.
+12 ;    2.054 ;  0.0715 ; ED 1st EDGE coll.
+14 ;    2.319 ;  0.0176 ; NoMax - ED Platform horizontal sway translation DOF - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+---- Skipped (No ED/BD)
+09 ;    1.151 ;  0.3304 ; NoMax - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 4 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+13 ;    2.309 ;  0.0563 ; NoMax - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 4 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+15 ;    2.587 ;  0.1619 ; NoMax - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 5 amplitude, - - SD Craig-Bampton mode 4 amplitude, -
+------------------------------------------------------------------------
+--- OP 5 - WS 14.0 - RPM 9.94 
+------------------------------------------------------------------------
+01 ;    0.249 ;  0.0023 ; ED Platform horizontal sway translation DOF - ED Platform roll tilt rotation DOF - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, -
+02 ;    0.256 ;  0.0988 ; ED Platform surge - ED Platform pitch - ED 1st FLAP cos - ED 1st FLAP coll. - ED Variable speed generator DOF - ED Platform heave - ED 1st EDGE coll. - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 4 amplitude, -
+03 ;    0.498 ;  0.9488 ; ED 1st FLAP sin - ED Platform yaw rotation DOF
+04 ;    0.702 ;  0.8319 ; NoMax - ED 1st FLAP coll. - ED Platform surge - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, -
+05 ;    0.740 ;  0.7722 ; ED 2nd FLAP cos
+06 ;    0.802 ;  0.0462 ; ED 1st EDGE sin - ED 1st EDGE cos
+07 ;    1.124 ;  0.3663 ; ED 2nd FLAP sin
+08 ;    1.143 ;  0.0460 ; NoMax - ED Platform horizontal sway translation DOF - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 4 amplitude, -
+10 ;    1.814 ;  0.3147 ; ED 2nd FLAP coll.
+11 ;    2.043 ;  0.0744 ; ED Drivetrain-rot
+13 ;    2.314 ;  0.0177 ; NoMax - ED Platform horizontal sway translation DOF - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+---- Skipped (No ED/BD)
+09 ;    1.484 ;  0.2681 ; NoMax - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 4 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+12 ;    2.305 ;  0.0564 ; NoMax - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 4 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+14 ;    2.576 ;  0.1630 ; NoMax - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 5 amplitude, - - SD Craig-Bampton mode 4 amplitude, -
+15 ;    3.491 ;  0.1067 ; NoMax - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 4 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+------------------------------------------------------------------------
+--- OP 6 - WS 20.0 - RPM 9.65 
+------------------------------------------------------------------------
+01 ;    0.249 ;  0.0057 ; ED Platform horizontal sway translation DOF - ED Platform roll tilt rotation DOF - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, -
+02 ;    0.254 ;  0.1066 ; ED Platform surge - ED Platform pitch - ED 1st FLAP cos - ED Variable speed generator DOF - ED 1st FLAP coll. - ED Platform heave - ED 1st EDGE coll. - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 4 amplitude, -
+04 ;    0.674 ;  0.8500 ; NoMax - ED 1st FLAP coll. - ED Platform surge - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, -
+05 ;    0.715 ;  0.8151 ; NoMax - ED 1st FLAP cos - ED 1st FLAP sin - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, -
+06 ;    0.768 ;  0.0558 ; ED 1st EDGE sin - ED 1st EDGE cos
+07 ;    1.092 ;  0.0470 ; NoMax - ED Platform horizontal sway translation DOF - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 4 amplitude, -
+08 ;    1.182 ;  0.3438 ; ED 2nd FLAP sin - ED 2nd FLAP cos
+10 ;    1.796 ;  0.2695 ; ED 2nd FLAP coll.
+11 ;    2.052 ;  0.1169 ; ED Drivetrain-rot
+13 ;    2.309 ;  0.0195 ; NoMax - ED Platform horizontal sway translation DOF - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+---- Skipped (No ED/BD)
+09 ;    1.532 ;  0.2664 ; NoMax - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 4 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+12 ;    2.296 ;  0.0557 ; NoMax - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 4 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+14 ;    2.541 ;  0.1551 ; NoMax - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 5 amplitude, - - SD Craig-Bampton mode 4 amplitude, -
+15 ;    3.446 ;  0.0990 ; NoMax - SD Craig-Bampton mode 2 amplitude, - - SD Craig-Bampton mode 1 amplitude, - - SD Craig-Bampton mode 3 amplitude, - - SD Craig-Bampton mode 4 amplitude, - - SD Craig-Bampton mode 5 amplitude, -
+---- Skipped (High Damping)
+03 ;    0.489 ;  0.9703 ; ED 1st FLAP sin - ED Platform yaw rotation DOF

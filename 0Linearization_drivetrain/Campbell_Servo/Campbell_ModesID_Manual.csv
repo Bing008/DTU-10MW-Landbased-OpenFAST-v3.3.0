@@ -1,0 +1,24 @@
+Mode Number Table,,,,,,
+Wind Speed (mps),0.0,4.0,7.0,10.0,14.0,20.0
+Generator DOF (not shown),0,1,2,1,2,2
+Platform surge,2,3,4,3,4,4
+Platform sway,1,2,1,2,1,1
+Platform heave,16,0,0,0,0,0
+Platform roll,0,0,0,0,0,0
+Platform pitch,0,0,0,0,0,0
+Platform yaw,4,0,3,0,3,3
+1st Tower FA,0,0,0,0,0,0
+1st Tower SS,0,0,0,0,0,0
+1st Blade Flap (Regressive),5,6,5,4,0,5
+1st Blade Flap (Collective),6,5,0,6,0,0
+1st Blade Flap (Progressive),0,0,0,5,0,0
+1st Blade Edge (Regressive),7,7,6,7,6,6
+1st Blade Edge (Collective),3,12,11,12,0,0
+1st Blade Edge (Progressive),8,0,0,8,0,0
+1st Drivetrain Torsion,0,0,0,0,11,11
+2nd Tower FA,0,0,0,0,0,0
+2nd Tower SS,0,0,0,0,0,0
+2nd Blade Flap (Regressive),9,4,8,10,5,8
+2nd Blade Flap (Collective),11,11,10,11,10,10
+2nd Blade Flap (Progressive),10,0,0,0,7,0
+Nacelle Yaw (not shown),0,0,0,0,0,0

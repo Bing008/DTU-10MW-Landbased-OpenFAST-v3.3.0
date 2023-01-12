@@ -1,0 +1,102 @@
+------------------------------------------------------------------------
+--- OP 1 - WS 0.0 - RPM 0.00 
+------------------------------------------------------------------------
+01 ;    0.246 ;  0.0061 ; ED 1st tower SS
+02 ;    0.248 ;  0.0064 ; ED 1st tower FA - ED 1st FLAP coll.
+03 ;    0.531 ;  0.0102 ; ED Drivetrain-rot - ED 1st EDGE coll. - ED 2nd tower SS
+04 ;    0.618 ;  0.0305 ; ED 1st FLAP cos
+05 ;    0.627 ;  0.0308 ; ED 1st FLAP sin
+06 ;    0.642 ;  0.0313 ; NoMax - ED 1st FLAP coll. - ED 1st FLAP cos - ED 1st EDGE coll. - ED Drivetrain-rot - ED 1st FLAP sin
+07 ;    0.988 ;  0.0304 ; ED 1st EDGE sin
+08 ;    0.999 ;  0.0309 ; ED 1st EDGE cos
+09 ;    1.729 ;  0.0768 ; ED 2nd FLAP cos
+10 ;    1.845 ;  0.0845 ; ED 2nd FLAP sin
+11 ;    1.868 ;  0.0854 ; ED 2nd FLAP coll.
+12 ;    2.325 ;  0.0837 ; NoMax - ED 1st EDGE coll. - ED Drivetrain-rot - ED 1st FLAP coll. - ED 2nd FLAP coll. - ED 2nd FLAP sin
+13 ;    2.381 ;  0.0979 ; ED 2nd tower FA
+14 ;    2.656 ;  0.0754 ; NoMax - ED 1st EDGE coll. - ED Drivetrain-rot - ED 1st FLAP coll. - ED 2nd FLAP coll. - ED 2nd FLAP sin
+------------------------------------------------------------------------
+--- OP 2 - WS 4.0 - RPM 6.97 
+------------------------------------------------------------------------
+01 ;    0.253 ;  0.0065 ; ED Variable speed generator DOF - ED 1st tower SS
+02 ;    0.255 ;  0.0710 ; ED 1st FLAP cos - ED 1st FLAP coll. - ED 1st tower FA
+03 ;    0.567 ;  0.7227 ; ED 1st FLAP sin
+04 ;    0.672 ;  0.6376 ; NoMax - ED 1st FLAP coll. - ED 1st FLAP sin - ED 2nd FLAP coll. - ED 1st FLAP cos - ED 1st EDGE coll.
+05 ;    0.764 ;  0.5518 ; NoMax - ED 1st FLAP sin - ED 1st FLAP cos - ED 2nd FLAP cos - ED 2nd FLAP sin - ED 1st EDGE sin
+06 ;    0.881 ;  0.0413 ; ED 1st EDGE sin - ED 1st EDGE cos
+07 ;    1.113 ;  0.0311 ; NoMax - ED 1st EDGE cos - ED 1st EDGE sin - ED 1st FLAP cos - ED 1st FLAP sin - ED 2nd FLAP cos
+08 ;    1.643 ;  0.2734 ; ED 2nd FLAP cos
+09 ;    1.825 ;  0.2648 ; ED 2nd FLAP coll.
+10 ;    1.866 ;  0.2451 ; ED 2nd FLAP sin
+11 ;    2.059 ;  0.0740 ; ED 1st EDGE coll.
+12 ;    2.346 ;  0.1228 ; ED 2nd tower FA
+13 ;    2.352 ;  0.0919 ; ED 2nd tower SS
+14 ;    4.314 ;  0.0724 ; ED Drivetrain-rot
+------------------------------------------------------------------------
+--- OP 3 - WS 7.0 - RPM 6.99 
+------------------------------------------------------------------------
+01 ;    0.253 ;  0.0073 ; ED Variable speed generator DOF - ED 1st tower SS
+02 ;    0.258 ;  0.0852 ; ED 1st FLAP cos - ED 1st FLAP coll. - ED 1st tower FA
+03 ;    0.582 ;  0.8561 ; ED 1st FLAP sin
+04 ;    0.672 ;  0.7644 ; NoMax - ED 1st FLAP coll. - ED 1st FLAP sin - ED 2nd FLAP coll. - ED 1st FLAP cos - ED Variable speed generator DOF
+05 ;    0.749 ;  0.6813 ; NoMax - ED 1st FLAP sin - ED 1st FLAP cos - ED 2nd FLAP sin - ED 2nd FLAP cos - ED 1st FLAP coll.
+06 ;    0.882 ;  0.0447 ; ED 1st EDGE sin - ED 1st EDGE cos
+07 ;    1.120 ;  0.0385 ; NoMax - ED 1st EDGE cos - ED 1st EDGE sin - ED 1st FLAP cos - ED 1st FLAP sin - ED 2nd FLAP cos
+08 ;    1.635 ;  0.3011 ; ED 2nd FLAP cos
+09 ;    1.813 ;  0.2882 ; ED 2nd FLAP coll.
+10 ;    1.853 ;  0.2686 ; ED 2nd FLAP sin
+11 ;    2.063 ;  0.0742 ; ED 1st EDGE coll.
+12 ;    2.337 ;  0.1248 ; ED 2nd tower FA
+13 ;    2.351 ;  0.0919 ; ED 2nd tower SS
+14 ;    4.314 ;  0.0725 ; ED Drivetrain-rot
+------------------------------------------------------------------------
+--- OP 4 - WS 10.0 - RPM 7.93 
+------------------------------------------------------------------------
+01 ;    0.253 ;  0.0087 ; ED Variable speed generator DOF - ED 1st tower SS
+02 ;    0.260 ;  0.0922 ; ED 1st FLAP cos - ED 1st FLAP coll. - ED 1st tower FA
+03 ;    0.590 ;  0.9106 ; ED 1st FLAP sin
+04 ;    0.689 ;  0.8121 ; NoMax - ED 1st FLAP coll. - ED 1st FLAP sin - ED 1st FLAP cos - ED 2nd FLAP coll. - ED Variable speed generator DOF
+05 ;    0.760 ;  0.7198 ; NoMax - ED 1st FLAP sin - ED 1st FLAP cos - ED 1st FLAP coll. - ED 2nd FLAP sin - ED 2nd FLAP cos
+06 ;    0.871 ;  0.0568 ; ED 1st EDGE sin - ED 1st EDGE cos
+07 ;    1.143 ;  0.0496 ; NoMax - ED 1st EDGE cos - ED 1st EDGE sin - ED 1st FLAP cos - ED 1st FLAP sin - ED 2nd FLAP cos
+08 ;    1.605 ;  0.3365 ; ED 2nd FLAP cos
+09 ;    1.792 ;  0.3154 ; ED 2nd FLAP coll.
+10 ;    1.848 ;  0.2910 ; ED 2nd FLAP sin
+11 ;    2.067 ;  0.0767 ; ED 1st EDGE coll.
+12 ;    2.326 ;  0.1260 ; ED 2nd tower FA
+13 ;    2.351 ;  0.0921 ; ED 2nd tower SS
+14 ;    4.313 ;  0.0744 ; ED Drivetrain-rot
+------------------------------------------------------------------------
+--- OP 5 - WS 14.0 - RPM 10.02 
+------------------------------------------------------------------------
+01 ;    0.253 ;  0.0081 ; ED Variable speed generator DOF - ED 1st tower SS
+02 ;    0.259 ;  0.1013 ; ED 1st FLAP cos - ED 1st FLAP coll. - ED 1st tower FA
+03 ;    0.615 ;  0.9427 ; ED 1st FLAP sin
+04 ;    0.703 ;  0.8377 ; NoMax - ED 1st FLAP coll. - ED 2nd FLAP coll. - ED 1st FLAP sin - ED Variable speed generator DOF - ED 1st FLAP cos
+05 ;    0.805 ;  0.7367 ; NoMax - ED 1st FLAP sin - ED 1st FLAP cos - ED 2nd FLAP cos - ED 2nd FLAP sin - ED 1st FLAP coll.
+06 ;    0.831 ;  0.0459 ; ED 1st EDGE sin - ED 1st EDGE cos
+07 ;    1.169 ;  0.0329 ; NoMax - ED 1st EDGE cos - ED 1st EDGE sin - ED 1st FLAP cos - ED 1st FLAP sin - ED 2nd FLAP cos
+08 ;    1.590 ;  0.3619 ; ED 2nd FLAP cos - ED 2nd FLAP sin
+09 ;    1.814 ;  0.3162 ; ED 2nd FLAP coll.
+10 ;    1.898 ;  0.2990 ; NoMax - ED 2nd FLAP sin - ED 2nd FLAP cos - ED 1st FLAP cos - ED 1st FLAP sin - ED 2nd FLAP coll.
+11 ;    2.057 ;  0.0818 ; ED 1st EDGE coll.
+12 ;    2.323 ;  0.1261 ; ED 2nd tower FA
+13 ;    2.352 ;  0.0926 ; ED 2nd tower SS
+14 ;    4.318 ;  0.0594 ; ED Drivetrain-rot
+------------------------------------------------------------------------
+--- OP 6 - WS 20.0 - RPM 9.65 
+------------------------------------------------------------------------
+01 ;    0.253 ;  0.0111 ; ED Variable speed generator DOF - ED 1st tower SS
+02 ;    0.256 ;  0.1090 ; ED 1st FLAP cos - ED 1st FLAP coll. - ED 1st tower FA
+03 ;    0.606 ;  0.9554 ; ED 1st FLAP sin
+04 ;    0.672 ;  0.8495 ; NoMax - ED 1st FLAP coll. - ED 2nd FLAP coll. - ED 1st FLAP sin - ED 1st FLAP cos - ED 1st EDGE coll.
+05 ;    0.770 ;  0.7590 ; NoMax - ED 1st FLAP sin - ED 1st FLAP cos - ED 2nd FLAP cos - ED 2nd FLAP sin - ED 1st FLAP coll.
+06 ;    0.835 ;  0.0426 ; ED 1st EDGE sin - ED 1st EDGE cos
+07 ;    1.158 ;  0.0306 ; NoMax - ED 1st EDGE cos - ED 1st EDGE sin - ED 1st FLAP cos - ED 1st FLAP sin - ED 2nd FLAP sin
+08 ;    1.601 ;  0.3585 ; ED 2nd FLAP cos - ED 2nd FLAP sin
+09 ;    1.795 ;  0.2685 ; ED 2nd FLAP coll.
+10 ;    1.899 ;  0.2991 ; NoMax - ED 2nd FLAP sin - ED 2nd FLAP cos - ED 1st FLAP cos - ED 1st FLAP sin - ED 1st EDGE sin
+11 ;    2.063 ;  0.1243 ; ED 1st EDGE coll.
+12 ;    2.322 ;  0.1226 ; ED 2nd tower FA
+13 ;    2.351 ;  0.0951 ; ED 2nd tower SS
+14 ;    4.329 ;  0.0609 ; ED Drivetrain-rot
