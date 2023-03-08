@@ -1,5 +1,5 @@
-------- ELASTODYN V1.04.* TOWER INPUT FILE -------------------------------------
-DTU 10 MW RWT baseline tower input properties.
+------- ELASTODYN TOWER INPUT FILE FOR OpenFAST v3.3.0 -------------------------------------
+DTU 10 MW RWT baseline tower input properties for a very short and light tower. 
 ---------------------- TOWER PARAMETERS ----------------------------------------
           2   NTwInpSt    - Number of input stations to specify tower geometry
         1.9   TwrFADmp(1) - Tower 1st fore-aft mode structural damping ratio (%)
