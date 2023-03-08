@@ -1,5 +1,5 @@
 ------- OpenFAST v3.3.0 INPUT FILE -------------------------------------------
-DTU           10MW          - RWT onshore
+DTU 10MW RWT                - Landbased
 ---------------------- SIMULATION CONTROL --------------------------------------
 False         Echo          - Echo input data to <RootName>.ech (flag)
 "FATAL"       AbortLevel    - Error level when simulation should abort (string) {"WARNING", "SEVERE", "FATAL"}

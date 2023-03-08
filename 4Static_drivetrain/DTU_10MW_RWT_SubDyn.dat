@@ -1,5 +1,5 @@
 ----------- SubDyn MultiMember Support Structure Input File ------------
-LIFES50+      Olav          - Olsen Gulf of Maine OO-Star Public Design Floating Platform by Veronica L. Krathe, November 2022
+DTU 10MW RWT                - Landbased
 -------------------------- SIMULATION CONTROL ---------------------------------
 True          Echo          - Echo input data to "<rootname>.SD.ech" (flag)
 0.0025        SDdeltaT      - Local Integration Step. If "default", the glue-code integration step will be used.

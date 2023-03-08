@@ -1,5 +1,5 @@
-------- InflowWind INPUT FILE for OpenFAST v3.2.0 -------------------------------------------------------------------------
-Wind          inflow        - for DTU 10MW RWT offshore baseline turbine, Michael Borg (borg@dtu.dk).
+------- InflowWind INPUT FILE for OpenFAST v3.3.0 -------------------------------------------------------------------------
+Wind          inflow        - for DTU 10MW RWT landbased turbine
 ---------------------------------------------------------------------------------------------------------------
 False         Echo          - Echo input data to <RootName>.ech (flag)
 3             WindType      - switch for wind file type (1=steady; 2=uniform; 3=binary TurbSim FF; 4=binary Bladed-style FF; 5=HAWC format; 6=User defined; 7=native Bladed FF)

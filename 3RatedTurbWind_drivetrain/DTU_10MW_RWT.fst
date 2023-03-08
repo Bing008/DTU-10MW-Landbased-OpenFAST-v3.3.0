@@ -1,5 +1,5 @@
-------- OpenFAST v3.2.0 INPUT FILE -------------------------------------------
-LIFES50+      Olav          - Olsen Gulf of Maine OO-Star Public Design with DTU 10MW Reference Wind Turbine, Michael Borg (borg@dtu.dk) and Antonio Pegalajar-Jurado (ampj@dtu.dk), DTU Wind Energy, August 2017.
+------- OpenFAST v3.3.0 INPUT FILE -------------------------------------------
+DTU 10MW RWT                - Landbased
 ---------------------- SIMULATION CONTROL --------------------------------------
 False         Echo          - Echo input data to <RootName>.ech (flag)
 "FATAL"       AbortLevel    - Error level when simulation should abort (string) {"WARNING", "SEVERE", "FATAL"}

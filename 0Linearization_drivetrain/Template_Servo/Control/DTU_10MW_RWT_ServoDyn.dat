@@ -1,5 +1,5 @@
-------- SERVODYN INPUT FILE for OpenFAST v3.2.0 --------------------------------------------
-LIFES50+      Olav          - Olsen Gulf of Maine OO-Star Public Design Controller , Michael Borg (borg@dtu.dk), DTU Wind Energy, March 2017.
+------- SERVODYN INPUT FILE for OpenFAST v3.3.0 -------------------------------------------------------------------------
+DTU 10MW RWT                - Landbased
 ---------------------- SIMULATION CONTROL --------------------------------------
 False         Echo          - Echo input data to <RootName>.ech (flag)
 "default"     DT            - Communication interval for controllers (s)
