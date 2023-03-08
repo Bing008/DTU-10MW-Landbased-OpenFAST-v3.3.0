@@ -3,7 +3,7 @@ LIFES50+      Olav          - Olsen Gulf of Maine OO-Star Public Design with DTU
 ---------------------- SIMULATION CONTROL --------------------------------------
 False         Echo          - Echo input data to <RootName>.ech (flag)
 "FATAL"       AbortLevel    - Error level when simulation should abort (string) {"WARNING", "SEVERE", "FATAL"}
-630           TMax          - Total run time (s)
+300           TMax          - Total run time (s)
 0.0025        DT            - Recommended module time step (s)
 1             InterpOrder   - Interpolation order for input/output time history (-) {1=linear, 2=quadratic}
 1             NumCrctn      - Number of correction iterations (-) {0=explicit calculation, i.e., no corrections}
@@ -22,12 +22,12 @@ False         Echo          - Echo input data to <RootName>.ech (flag)
 ---------------------- ENVIRONMENTAL CONDITIONS --------------------------------
 9.80665       Gravity       - Gravitational acceleration (m/s^2)
 0             AirDens       - Air density (kg/m^3)
-1025          WtrDens       - Water density (kg/m^3)
+0             WtrDens       - Water density (kg/m^3)
 0             KinVisc       - Kinematic viscosity of working fluid (m^2/s)
 0             SpdSound      - Speed of sound in working fluid (m/s)
 0             Patm          - Atmospheric pressure (Pa) [used only for an MHK turbine cavitation check]
 0             Pvap          - Vapour pressure of working fluid (Pa) [used only for an MHK turbine cavitation check]
-130           WtrDpth       - Water depth (m)
+0             WtrDpth       - Water depth (m)
 0             MSL2SWL       - Offset between still-water level and mean sea level (m) [positive upward]
 ---------------------- INPUT FILES ---------------------------------------------
 "DTU_10MW_RWT_ElastoDyn.dat" EDFile        - Name of file containing ElastoDyn input parameters (quoted string)

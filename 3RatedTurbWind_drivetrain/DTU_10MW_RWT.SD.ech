@@ -6,18 +6,18 @@
                SttcSolve      - Solve dynamics about static equilibrium point
   "True"
                GuyanLoadCorre - Add extra lever arm contribution to interface loads
-  "True"
+  "False"
 
             1  FEMMod         - FEM analysis mode
             1  NDiv           - Number of divisions per member
             T  CBMod          - C-B mod flag
             5  Nmodes         - Number of internal modes
                JDamping       - Damping ratio of the internal modes
-   1.0000E+00   1.0000E+00   1.0000E+00   1.0000E+00   1.0000E+00
+   1.0000E+01   1.0000E+01   1.0000E+01   2.0000E+01   2.0000E+01
                GuyanDampMod   - Guyan damping
   "1"
                RayleighDamp   - 
-   4.9600E-02   6.5000E-03
+   2.6600E-02   1.3400E-02
             6  GuyanDampSize  - Guyan damping matrix size
                GuyanDampMat1  - Guyan Damping matrix 
    0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
@@ -32,7 +32,7 @@
                GuyanDampMat6  - Guyan Damping matrix 
    0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
 
-           36  NJoints        - Number of joints
+           37  NJoints        - Number of joints
 
 
                Joints         - Joint number and coordinates
@@ -78,33 +78,35 @@
                Joints         - Joint number and coordinates
    2.2000E+01  -4.2000E-01   0.0000E+00   1.1842E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   2.3000E+01  -4.1464E+00   0.0000E+00   1.1855E+02   3.0000E+00   9.9619E-01   0.0000E+00  -8.7156E-02   0.0000E+00
+   2.3000E+01  -7.1886E-01   0.0000E+00   1.1844E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   2.4000E+01  -4.1792E+00   0.0000E+00   1.1818E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   2.4000E+01  -6.1924E-01   0.0000E+00   1.1843E+02   3.0000E+00   0.0000E+00   1.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   2.5000E+01  -3.5934E+00   0.0000E+00   1.1813E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   2.5000E+01  -5.1962E-01   0.0000E+00   1.1843E+02   3.0000E+00   0.0000E+00   0.0000E+00   1.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   2.6000E+01  -2.6251E+00   0.0000E+00   1.1844E+02   3.0000E+00   9.9619E-01   0.0000E+00  -8.7156E-02   0.0000E+00
+   2.6000E+01  -4.1464E+00   0.0000E+00   1.1855E+02   3.0000E+00   9.9619E-01   0.0000E+00  -8.7156E-02   0.0000E+00
                Joints         - Joint number and coordinates
-   2.7000E+01  -2.6553E+00   0.0000E+00   1.1809E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   2.7000E+01  -4.1792E+00   0.0000E+00   1.1818E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   2.8000E+01  -2.1621E+00   0.0000E+00   1.1805E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   2.8000E+01  -3.6426E+00   0.0000E+00   1.1813E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   2.9000E+01  -4.2000E-01   0.0000E+00   1.1832E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   2.9000E+01  -2.6251E+00   0.0000E+00   1.1844E+02   3.0000E+00   9.9619E-01   0.0000E+00  -8.7156E-02   0.0000E+00
                Joints         - Joint number and coordinates
-   3.0000E+01  -4.2000E-01   0.0000E+00   1.1822E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   3.0000E+01  -2.6553E+00   0.0000E+00   1.1809E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   3.1000E+01  -4.2000E-01   1.9242E+00   1.1822E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   3.1000E+01  -2.2075E+00   0.0000E+00   1.1805E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   3.2000E+01   1.2564E-01   1.9242E+00   1.1817E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   3.2000E+01  -4.2000E-01   1.9242E+00   1.1842E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   3.3000E+01  -4.2000E-01  -1.9242E+00   1.1822E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   3.3000E+01   1.2564E-01   1.9242E+00   1.1837E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   3.4000E+01   1.2564E-01  -1.9242E+00   1.1817E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   3.4000E+01  -4.2000E-01  -1.9242E+00   1.1842E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   3.5000E+01  -2.3941E-01   2.2970E-02   1.1841E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   3.5000E+01   1.2564E-01  -1.9242E+00   1.1837E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   3.6000E+01   5.1603E+00  -1.6735E-01   1.1842E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   3.6000E+01  -2.3941E-01   2.2970E-02   1.1841E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+               Joints         - Joint number and coordinates
+   3.7000E+01   5.1647E+00  -1.6753E-01   1.1842E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
 
             1  NReact         - Number of joints with reaction forces
 
@@ -114,7 +116,7 @@
 
 
 
-           38  NMembers       - Number of members
+           39  NMembers       - Number of members
 
 
                Members line 1 - Member number and connectivity 
@@ -140,67 +142,69 @@
                Members line 1 - Member number and connectivity 
            11           12           11            1            1            3
                Members line 1 - Member number and connectivity 
-           12           13           14           23           23            1
+           12           13           14            2            2            3
                Members line 1 - Member number and connectivity 
-           13           14           15           23           23            1
+           13           14           15            2            2            3
                Members line 1 - Member number and connectivity 
-           14           15           12           23           23            1
+           14           15           12            2            2            3
                Members line 1 - Member number and connectivity 
            15           16           17            1            1            3
                Members line 1 - Member number and connectivity 
-           16           12           17           23           23            1
+           16           12           17            2            2            3
                Members line 1 - Member number and connectivity 
-           17           18           19           24           24            1
+           17           18           19           23           23            1
                Members line 1 - Member number and connectivity 
-           18           19           20           24           24            1
+           18           19           20           23           23            1
                Members line 1 - Member number and connectivity 
-           19           20           21           24           24            1
+           19           20           21           23           23            1
                Members line 2 - Member number and connectivity 
-           20           21           22            1            1            3
+           20           21           23            1            1            3
                Members line 2 - Member number and connectivity 
-           21           19           23            1            1            1
+           21           23           24            1            1            1
                Members line 2 - Member number and connectivity 
-           22           23           24            1            1            1
+           22           24           25            1            1            1
                Members line 2 - Member number and connectivity 
-           23           24           25           25           25            1
+           23           25           22            1            1            1
                Members line 2 - Member number and connectivity 
-           24           25           13            1            1            3
+           24           19           26            1            1            1
                Members line 2 - Member number and connectivity 
-           25           20           26            1            1            1
+           25           26           27            1            1            1
                Members line 2 - Member number and connectivity 
-           26           26           27            1            1            1
+           26           27           28           24           24            1
                Members line 2 - Member number and connectivity 
-           27           27           28           26           26            1
+           27           28           13            1            1            3
                Members line 2 - Member number and connectivity 
-           28           28           14            1            1            3
+           28           20           29            1            1            1
                Members line 2 - Member number and connectivity 
-           29           22           29            2            2            1
+           29           29           30            1            1            1
                Members line 3 - Member number and connectivity 
-           30           29           30            2            2            1
+           30           30           31           25           25            1
                Members line 3 - Member number and connectivity 
-           31           30           31           27           27            1
+           31           31           14            1            1            3
                Members line 3 - Member number and connectivity 
-           32           31           32           28           28            1
+           32           22           32           26           26            1
                Members line 3 - Member number and connectivity 
-           33           32           15            1            1            3
+           33           32           33           27           27            1
                Members line 3 - Member number and connectivity 
-           34           30           33           27           27            1
+           34           33           15            1            1            3
                Members line 3 - Member number and connectivity 
-           35           33           34           28           28            1
+           35           22           34           26           26            1
                Members line 3 - Member number and connectivity 
-           36           34           15            1            1            3
+           36           34           35           27           27            1
                Members line 3 - Member number and connectivity 
-           37           35           22            1            1            3
+           37           35           15            1            1            3
                Members line 3 - Member number and connectivity 
-           38           36           11            1            1            3
+           38           36           22            1            1            3
+               Members line 3 - Member number and connectivity 
+           39           37           11            1            1            3
 
-           28  NPropSets      - Number of property sets
+           27  NPropSets      - Number of property sets
 
 
                PropSets       - PropSets number and values 
-   1.0000E+00   2.1000E+13   8.0800E+11   1.0000E+00   1.0000E+00   4.0000E-01
+   1.0000E+00   2.1000E+14   8.0800E+12   1.0000E+00   1.0000E+00   4.0000E-01
                PropSets       - PropSets number and values 
-   2.0000E+00   2.1000E+11   8.0800E+10   1.0000E+00   1.0000E+00   4.0000E-01
+   2.0000E+00   2.1000E+14   8.0800E+12   1.0000E+00   1.0000E+00   4.0000E-01
                PropSets       - PropSets number and values 
    3.0000E+00   2.1000E+11   8.0800E+10   8.5000E+03   8.3000E+00   3.8000E-02
                PropSets       - PropSets number and values 
@@ -242,17 +246,15 @@
                PropSets       - PropSets number and values 
    2.2000E+01   2.1000E+11   8.0800E+10   8.5000E+03   5.4999E+00   2.0000E-02
                PropSets       - PropSets number and values 
-   2.3000E+01   2.2499E+12   2.9868E+11   4.2112E+04   7.0000E-01   1.5500E-01
+   2.3000E+01   6.1841E+10   1.9825E+12   2.0810E+04   1.7000E+00   1.0251E-01
                PropSets       - PropSets number and values 
-   2.4000E+01   6.1841E+10   1.9825E+12   2.0810E+04   1.7000E+00   1.0251E-01
+   2.4000E+01   7.3430E+09   8.0800E+06   1.0000E+00   8.6746E-01   1.0843E-01
                PropSets       - PropSets number and values 
-   2.5000E+01   7.3243E+09   8.0800E+06   1.0000E+00   8.6802E-01   1.0850E-01
+   2.5000E+01   1.2313E+10   8.0800E+06   1.0000E+00   6.0018E-01   7.5022E-02
                PropSets       - PropSets number and values 
-   2.6000E+01   1.2313E+10   8.0800E+06   1.0000E+00   6.0018E-01   7.5022E-02
+   2.6000E+01   4.7642E+07   8.0800E+10   1.0000E+00   1.5906E+01   1.9641E-01
                PropSets       - PropSets number and values 
-   2.7000E+01   4.7642E+07   8.0800E+10   1.0000E+00   1.5906E+01   1.9641E-01
-               PropSets       - PropSets number and values 
-   2.8000E+01   2.0411E+06   8.0800E+10   1.0000E+00   2.0506E+01   5.1267E-01
+   2.7000E+01   2.0411E+06   8.0800E+10   1.0000E+00   2.0506E+01   5.1267E-01
 
             0  NXPropSets     - Number of non-circular property sets
 
@@ -262,11 +264,13 @@
 
 
 
-            1  NPropSetsR     - Number of rigid link properties
+            2  NPropSetsR     - Number of rigid link properties
 
 
                RigidPropSets  - RigidPropSets ID and values 
    1.0000E+00   0.0000E+00
+               RigidPropSets  - RigidPropSets ID and values 
+   2.0000E+00   1.1176E+04
 
             0  NCOSMs         - Number of unique direction cosine matrices
 
@@ -279,7 +283,7 @@
             T  SSSum          - Summary File Logic Variable
             0  OutFEMModes    - Output of FEM Modes
             F  OutCOSM        - Cosine Matrix Logic Variable
-            F  OutAll         - Output all Member Forces Logic Variable
+            T  OutAll         - Output all Member Forces Logic Variable
             2  OutSwtch       - Output to which file variable
             T  TabDelim       - Use Tab Delimitation for numerical outputs
             1  OutDec         - Output Decimation
@@ -288,14 +292,16 @@
                OutSFmt        - Format for output column headers
   "A11"
 
-            5  NMOutputs      - Number of Members whose output must go into OutJckF and/or FAST .out
+            7  NMOutputs      - Number of Members whose output must go into OutJckF and/or FAST .out
 
 
               1	              2	              1	              2
              10	              2	              1	              2
              17	              2	              1	              2
-             23	              2	              1	              2
-             27	              2	              1	              2
+             26	              2	              1	              2
+             30	              2	              1	              2
+             33	              2	              1	              2
+             36	              2	              1	              2
 
                SSOutList      - List of outputs requested
   "M1N1TDxss, M1N1TDyss, M1N1TDzss, M2N2TDxss, M2N2TDyss, M2N2TDzss"
@@ -312,6 +318,8 @@
                SSOutList      - List of outputs requested
   "M3N1TDxss, M3N1TDyss, M3N1TDzss, M3N1RDxe, M3N1RDye, M3N1RDze"
                SSOutList      - List of outputs requested
+  "M3N2TDxss, M3N2TDyss, M3N2TDzss, M3N2RDxe, M3N2RDye, M3N2RDze"
+               SSOutList      - List of outputs requested
   "M3N1FMxe, M3N1FMye, M3N1FMze, M3N2FMxe, M3N2FMye, M3N2FMze"
                SSOutList      - List of outputs requested
   "M3N1MMxe, M3N1MMye, M3N1MMze, M3N2MMxe, M3N2MMye, M3N2MMze"
@@ -321,6 +329,8 @@
   "M3N1MKxe, M3N1MKye, M3N1MKze, M3N2MKxe, M3N2MKye, M3N2MKze"
                SSOutList      - List of outputs requested
   "M4N1TDxss, M4N1TDyss, M4N1TDzss, M4N1RDxe, M4N1RDye, M4N1RDze"
+               SSOutList      - List of outputs requested
+  "M4N2TDxss, M4N2TDyss, M4N2TDzss, M4N2RDxe, M4N2RDye, M4N2RDze"
                SSOutList      - List of outputs requested
   "M4N1FMxe, M4N1FMye, M4N1FMze, M4N2FMxe, M4N2FMye, M4N2FMze"
                SSOutList      - List of outputs requested
@@ -332,6 +342,8 @@
                SSOutList      - List of outputs requested
   "M5N1TDxss, M5N1TDyss, M5N1TDzss, M5N1RDxe, M5N1RDye, M5N1RDze"
                SSOutList      - List of outputs requested
+  "M5N2TDxss, M5N2TDyss, M5N2TDzss, M5N2RDxe, M5N2RDye, M5N2RDze"
+               SSOutList      - List of outputs requested
   "M5N1FMxe, M5N1FMye, M5N1FMze, M5N2FMxe, M5N2FMye, M5N2FMze"
                SSOutList      - List of outputs requested
   "M5N1MMxe, M5N1MMye, M5N1MMze, M5N2MMxe, M5N2MMye, M5N2MMze"
@@ -340,8 +352,34 @@
                SSOutList      - List of outputs requested
   "M5N1MKxe, M5N1MKye, M5N1MKze, M5N2MKxe, M5N2MKye, M5N2MKze"
                SSOutList      - List of outputs requested
+  "M6N1TDxss, M6N1TDyss, M6N1TDzss, M6N1RDxe, M6N1RDye, M6N1RDze"
+               SSOutList      - List of outputs requested
+  "M6N2TDxss, M6N2TDyss, M6N2TDzss, M6N2RDxe, M6N2RDye, M6N2RDze"
+               SSOutList      - List of outputs requested
+  "M6N1FMxe, M6N1FMye, M6N1FMze, M6N2FMxe, M6N2FMye, M6N2FMze"
+               SSOutList      - List of outputs requested
+  "M6N1MMxe, M6N1MMye, M6N1MMze, M6N2MMxe, M6N2MMye, M6N2MMze"
+               SSOutList      - List of outputs requested
+  "M6N1FKxe, M6N1FKye, M6N1FKze, M6N2FKxe, M6N2FKye, M6N2FKze"
+               SSOutList      - List of outputs requested
+  "M6N1MKxe, M6N1MKye, M6N1MKze, M6N2MKxe, M6N2MKye, M6N2MKze"
+               SSOutList      - List of outputs requested
+  "M7N1TDxss, M7N1TDyss, M7N1TDzss, M7N1RDxe, M7N1RDye, M7N1RDze"
+               SSOutList      - List of outputs requested
+  "M7N2TDxss, M7N2TDyss, M7N2TDzss, M7N2RDxe, M7N2RDye, M7N2RDze"
+               SSOutList      - List of outputs requested
+  "M7N1FMxe, M7N1FMye, M7N1FMze, M7N2FMxe, M7N2FMye, M7N2FMze"
+               SSOutList      - List of outputs requested
+  "M7N1MMxe, M7N1MMye, M7N1MMze, M7N2MMxe, M7N2MMye, M7N2MMze"
+               SSOutList      - List of outputs requested
+  "M7N1FKxe, M7N1FKye, M7N1FKze, M7N2FKxe, M7N2FKye, M7N2FKze"
+               SSOutList      - List of outputs requested
+  "M7N1MKxe, M7N1MKye, M7N1MKze, M7N2MKxe, M7N2MKye, M7N2MKze"
+               SSOutList      - List of outputs requested
   "ReactFXss, ReactFYss, ReactFZss, ReactMXss, ReactMYss, ReactMZss"
                SSOutList      - List of outputs requested
   "IntfFXss, IntfFYss, IntfFZss, IntfMXss, IntfMYss, IntfMZss"
+               SSOutList      - List of outputs requested
+  "IntfTDXss, IntfTDYss, IntfTDZss, IntfRDXss, IntfRDYss , IntfRDZss"
                SSOutList      - List of outputs requested
   "END"

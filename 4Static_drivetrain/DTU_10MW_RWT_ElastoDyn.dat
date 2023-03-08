@@ -212,5 +212,8 @@ BldGagNd      -             - List of blade nodes that have strain gages [1 to B
 "TwrBsMxt"                          -      Tower base roll (or side-to-side) moment (i.e., the moment caused by side-to-side forces) About the xt-axis (kN·m)
 "TwrBsMyt"                          -      Tower base pitching (or fore-aft) moment (i.e., the moment caused by fore-aft forces) About the yt-axis (kN·m)
 "TwrBsMzt"                          -      Tower base yaw (or torsional) moment About the zt-axis (kN·m)
+"TTDspRoll" 						-Tower-top / yaw bearing angular (rotational) roll deflection (relative to the undeflected position). 
+"TTDspPtch" 						-Tower-top / yaw bearing angular (rotational) pitch deflection (relative to the undeflected position). 
+"TTDspTwst" 						-Tower-top / yaw bearing angular (rotational) torsion deflection (relative to the undeflected position). This output will always be zero for FAST simulation results. 
 END
 ---------------------------------------------------------------------------------------

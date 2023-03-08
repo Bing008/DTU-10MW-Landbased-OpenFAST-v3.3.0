@@ -1,5 +1,5 @@
 ------- AERODYN v15.03.* INPUT FILE ------------------------------------------------
-Transferred from AeroDyn14 by VLK. Tower properties are taken from the DTU RWT report.
+Transfered from AeroDyn14 by VLK. Tower properties are taken from the DTU RWT report.
 ======  General Options  ============================================================================
 False                  Echo        - Echo the input to "<rootname>.AD.ech"?  (flag)
 Default                DTAero      - Time interval for aerodynamic calculations {or "default"} (s)
@@ -16,7 +16,7 @@ False                  CompAA      - Flag to compute AeroAcoustics calculation [
 1.225                  AirDens     - Air density (kg/m^3)
 1.4775510204081632e-05 KinVisc     - Kinematic air viscosity (m^2/s)
 335.0                  SpdSound    - Speed of sound (m/s)
-103500.0               Patm        - Atmospheric pressure (Pa) [used only when CavitCheck=True]
+101325.0               Patm        - Atmospheric pressure (Pa) [used only when CavitCheck=True]
 2000.0                 Pvap        - Vapour pressure of fluid (Pa) [used only when CavitCheck=True]
 ======  Blade-Element/Momentum Theory Options  ====================================================== [unused when WakeMod=0 or 3]
 2                      SkewMod     - Type of skewed-wake correction model (switch) {1=uncoupled, 2=Pitt/Peters, 3=coupled} [unused when WakeMod=0 or 3]
@@ -74,7 +74,7 @@ TwrElev        TwrDiam        TwrCd         TwrTI (used only with TwrShadow=2)
  1.156300000000000e+02  5.500000000000000e+00  5.000000000000000e-01  1.000000000000000e-01 
 ======  Outputs  ====================================================================================
 False                  SumPrint    - Generate a summary file listing input options and interpolated properties to "<rootname>.AD.sum"?  (flag)
-9                      NBlOuts     - Number of blade node outputs [0 - 9] (-)
+0                      NBlOuts     - Number of blade node outputs [0 - 9] (-)
 4, 7, 10, 13, 15, 18, 21, 24, 27 BlOutNd     - Blade nodes whose values will be output  (-)
 0                      NTwOuts     - Number of tower node outputs [0 - 9]  (-)
 0                      TwOutNd     - Tower nodes whose values will be output  (-)
@@ -85,5 +85,7 @@ False                  SumPrint    - Generate a summary file listing input optio
 "RtAeroPwr"
 "RtSpeed"
 "RtTSR"
+"RtAeroFxg"
+"RtAeroMxg"
 END of input file (the word "END" must appear in the first 3 columns of this last OutList line)
 ---------------------------------------------------------------------------------------

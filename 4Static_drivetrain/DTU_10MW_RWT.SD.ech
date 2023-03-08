@@ -13,11 +13,11 @@
             T  CBMod          - C-B mod flag
             5  Nmodes         - Number of internal modes
                JDamping       - Damping ratio of the internal modes
-   1.0000E+00   1.0000E+00   1.0000E+00   1.0000E+00   1.0000E+00
+   1.0000E+01   1.0000E+01   2.0000E+01   2.0000E+01   2.0000E+01
                GuyanDampMod   - Guyan damping
   "1"
                RayleighDamp   - 
-   4.9600E-02   6.5000E-03
+   2.6600E-02   1.3400E-02
             6  GuyanDampSize  - Guyan damping matrix size
                GuyanDampMat1  - Guyan Damping matrix 
    0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
@@ -82,29 +82,29 @@
                Joints         - Joint number and coordinates
    2.4000E+01  -4.1792E+00   0.0000E+00   1.1818E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   2.5000E+01  -3.5934E+00   0.0000E+00   1.1813E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   2.5000E+01  -3.6426E+00   0.0000E+00   1.1813E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
    2.6000E+01  -2.6251E+00   0.0000E+00   1.1844E+02   3.0000E+00   9.9619E-01   0.0000E+00  -8.7156E-02   0.0000E+00
                Joints         - Joint number and coordinates
    2.7000E+01  -2.6553E+00   0.0000E+00   1.1809E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   2.8000E+01  -2.1621E+00   0.0000E+00   1.1805E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   2.8000E+01  -2.2075E+00   0.0000E+00   1.1805E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   2.9000E+01  -4.2000E-01   0.0000E+00   1.1832E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   2.9000E+01  -4.2000E-01   0.0000E+00   1.1822E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   3.0000E+01  -4.2000E-01   0.0000E+00   1.1822E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   3.0000E+01  -4.2000E-01   0.0000E+00   1.1802E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   3.1000E+01  -4.2000E-01   1.9242E+00   1.1822E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   3.1000E+01  -4.2000E-01   1.9242E+00   1.1802E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   3.2000E+01   1.2564E-01   1.9242E+00   1.1817E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   3.2000E+01   1.2564E-01   1.9242E+00   1.1797E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   3.3000E+01  -4.2000E-01  -1.9242E+00   1.1822E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   3.3000E+01  -4.2000E-01  -1.9242E+00   1.1802E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   3.4000E+01   1.2564E-01  -1.9242E+00   1.1817E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   3.4000E+01   1.2564E-01  -1.9242E+00   1.1797E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
    3.5000E+01  -2.3941E-01   2.2970E-02   1.1841E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
                Joints         - Joint number and coordinates
-   3.6000E+01   5.1603E+00  -1.6735E-01   1.1842E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   3.6000E+01   5.1936E+00  -1.6944E-01   1.1843E+02   1.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
 
             1  NReact         - Number of joints with reaction forces
 
@@ -246,13 +246,13 @@
                PropSets       - PropSets number and values 
    2.4000E+01   6.1841E+10   1.9825E+12   2.0810E+04   1.7000E+00   1.0251E-01
                PropSets       - PropSets number and values 
-   2.5000E+01   7.3243E+09   8.0800E+06   1.0000E+00   8.6802E-01   1.0850E-01
+   2.5000E+01   7.3430E+09   8.0800E+06   1.0000E+00   8.6746E-01   1.0843E-01
                PropSets       - PropSets number and values 
    2.6000E+01   1.2313E+10   8.0800E+06   1.0000E+00   6.0018E-01   7.5022E-02
                PropSets       - PropSets number and values 
-   2.7000E+01   4.7642E+07   8.0800E+10   1.0000E+00   1.5906E+01   1.9641E-01
+   2.7000E+01   4.7642E+06   8.0800E+10   1.0000E+00   5.0300E+01   6.2109E-01
                PropSets       - PropSets number and values 
-   2.8000E+01   2.0411E+06   8.0800E+10   1.0000E+00   2.0506E+01   5.1267E-01
+   2.8000E+01   2.0411E+05   8.0800E+10   1.0000E+00   6.4846E+01   1.6212E+00
 
             0  NXPropSets     - Number of non-circular property sets
 
@@ -279,7 +279,7 @@
             T  SSSum          - Summary File Logic Variable
             0  OutFEMModes    - Output of FEM Modes
             F  OutCOSM        - Cosine Matrix Logic Variable
-            F  OutAll         - Output all Member Forces Logic Variable
+            T  OutAll         - Output all Member Forces Logic Variable
             2  OutSwtch       - Output to which file variable
             T  TabDelim       - Use Tab Delimitation for numerical outputs
             1  OutDec         - Output Decimation
@@ -288,7 +288,7 @@
                OutSFmt        - Format for output column headers
   "A11"
 
-            5  NMOutputs      - Number of Members whose output must go into OutJckF and/or FAST .out
+            7  NMOutputs      - Number of Members whose output must go into OutJckF and/or FAST .out
 
 
               1	              2	              1	              2
@@ -296,6 +296,8 @@
              17	              2	              1	              2
              23	              2	              1	              2
              27	              2	              1	              2
+             32	              2	              1	              2
+             35	              2	              1	              2
 
                SSOutList      - List of outputs requested
   "M1N1TDxss, M1N1TDyss, M1N1TDzss, M2N2TDxss, M2N2TDyss, M2N2TDzss"
@@ -340,8 +342,30 @@
                SSOutList      - List of outputs requested
   "M5N1MKxe, M5N1MKye, M5N1MKze, M5N2MKxe, M5N2MKye, M5N2MKze"
                SSOutList      - List of outputs requested
+  "M6N1TDxss, M6N1TDyss, M6N1TDzss, M6N1RDxe, M6N1RDye, M6N1RDze"
+               SSOutList      - List of outputs requested
+  "M6N1FMxe, M6N1FMye, M6N1FMze, M6N2FMxe, M6N2FMye, M6N2FMze"
+               SSOutList      - List of outputs requested
+  "M6N1MMxe, M6N1MMye, M6N1MMze, M6N2MMxe, M6N2MMye, M6N2MMze"
+               SSOutList      - List of outputs requested
+  "M6N1FKxe, M6N1FKye, M6N1FKze, M6N2FKxe, M6N2FKye, M6N2FKze"
+               SSOutList      - List of outputs requested
+  "M6N1MKxe, M6N1MKye, M6N1MKze, M6N2MKxe, M6N2MKye, M6N2MKze"
+               SSOutList      - List of outputs requested
+  "M7N1TDxss, M7N1TDyss, M7N1TDzss, M7N1RDxe, M7N1RDye, M7N1RDze"
+               SSOutList      - List of outputs requested
+  "M7N1FMxe, M7N1FMye, M7N1FMze, M7N2FMxe, M7N2FMye, M7N2FMze"
+               SSOutList      - List of outputs requested
+  "M7N1MMxe, M7N1MMye, M7N1MMze, M7N2MMxe, M7N2MMye, M7N2MMze"
+               SSOutList      - List of outputs requested
+  "M7N1FKxe, M7N1FKye, M7N1FKze, M7N2FKxe, M7N2FKye, M7N2FKze"
+               SSOutList      - List of outputs requested
+  "M7N1MKxe, M7N1MKye, M7N1MKze, M7N2MKxe, M7N2MKye, M7N2MKze"
+               SSOutList      - List of outputs requested
   "ReactFXss, ReactFYss, ReactFZss, ReactMXss, ReactMYss, ReactMZss"
                SSOutList      - List of outputs requested
   "IntfFXss, IntfFYss, IntfFZss, IntfMXss, IntfMYss, IntfMZss"
+               SSOutList      - List of outputs requested
+  "IntfTDXss, IntfTDYss, IntfTDZss, IntfRDXss, IntfRDYss , IntfRDZss"
                SSOutList      - List of outputs requested
   "END"

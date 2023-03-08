@@ -4,7 +4,7 @@ DTU           10MW          - RWT onshore
 False         Echo          - Echo input data to <RootName>.ech (flag)
 "FATAL"       AbortLevel    - Error level when simulation should abort (string) {"WARNING", "SEVERE", "FATAL"}
 300           TMax          - Total run time (s)
-0.0125        DT            - Recommended module time step (s)
+0.0025        DT            - Recommended module time step (s)
 1             InterpOrder   - Interpolation order for input/output time history (-) {1=linear, 2=quadratic}
 1             NumCrctn      - Number of correction iterations (-) {0=explicit calculation, i.e., no corrections}
 999999        DT_UJac       - Time between calls to get Jacobians (s)
@@ -65,7 +65,7 @@ False         CalcSteady    - Calculate a steady-state periodic operating point 
 False         LinOutJac     - Include full Jacobians in linearization output (for debug) (flag) [unused if Linearize=False; used only if LinInputs=LinOutputs=2]
 False         LinOutMod     - Write module-level linearization output files in addition to output for full system? (flag) [unused if Linearize=False]
 ---------------------- VISUALIZATION ------------------------------------------
-0             WrVTK         - VTK visualization data output: (switch) {0=none; 1=initialization data only; 2=animation}
+2             WrVTK         - VTK visualization data output: (switch) {0=none; 1=initialization data only; 2=animation}
 2             VTK_type      - Type of VTK visualization data: (switch) {1=surfaces; 2=basic meshes (lines/points); 3=all meshes (debug)} [unused if WrVTK=0]
 False         VTK_fields    - Write mesh fields to VTK data files? (flag) {true/false} [unused if WrVTK=0]
 15            VTK_fps       - Frame rate for VTK output (frames per second){will use closest integer multiple of DT} [used only if WrVTK=2]
